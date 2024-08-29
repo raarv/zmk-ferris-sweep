@@ -41,7 +41,7 @@
             ignore-modifiers;
         };
 
-        lt: hold_tap_lt {
+        lt: layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
